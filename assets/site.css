@@ -435,6 +435,8 @@ h1, h2, h3 { color: var(--text); line-height: 1.15; font-weight: 700; }
 /* Home: build cards */
 
 .cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+.cards--three { grid-template-columns: repeat(3, 1fr); }
+.cards + .cards { margin-top: 24px; }
 
 .card {
   display: flex;
