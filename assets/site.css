@@ -269,7 +269,7 @@ h1, h2, h3 { color: var(--text); line-height: 1.15; font-weight: 700; }
   z-index: -2;
   width: max(1800px, 125vw);
   aspect-ratio: 2 / 1;
-  background: url("img/screens/run-late-game.jpg") center / cover no-repeat;
+  background: url("img/backdrop.jpg") center / cover no-repeat;
   -webkit-mask-image: radial-gradient(ellipse 21% 27% at 50% 43%, #000 32%, transparent 100%);
   mask-image: radial-gradient(ellipse 21% 27% at 50% 43%, #000 32%, transparent 100%);
   transform: translate(-50%, -50%) scale(1);
